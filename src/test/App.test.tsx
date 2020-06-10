@@ -4,7 +4,11 @@ import App from "../App";
 import { profile } from "../config/data";
 
 test("renders app", () => {
-  const { getByText } = render(<App />);
-  const titleElement = getByText(profile.desc);
-  expect(titleElement).toBeInTheDocument();
+  const { getAllByText, getByText } = render(<App />);
+
+  const titleElement = getAllByText(profile.name);
+  expect(titleElement.length).toBeGreaterThan(0);
+
+  const descElement = getByText(profile.desc);
+  expect(descElement).toBeInTheDocument();
 });
