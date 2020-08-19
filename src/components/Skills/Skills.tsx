@@ -20,7 +20,7 @@ class Skills extends React.PureComponent<OwnProps> {
             {skills.map((skill: SkillState, index: number) => {
               if (index % 3 === 0 && index !== 0) {
                 return (
-                  <React.Fragment>
+                  <React.Fragment key={index}>
                     <div className="w-100 mt-2"></div>
                     <Col key={index}>
                       <SkillItem

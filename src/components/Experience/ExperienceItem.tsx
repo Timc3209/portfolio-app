@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  Card,
-  CardHeader,
-  CardBody,
-  CardTitle,
-  CardText,
-  CardFooter,
-} from "reactstrap";
+import { Card, CardHeader, CardBody, CardTitle, CardFooter } from "reactstrap";
 import { ExperienceState } from "../../redux/types";
 
 const ExperienceItem = ({
@@ -23,16 +16,14 @@ const ExperienceItem = ({
     </CardHeader>
     <CardBody>
       <CardTitle />
-      <CardText>
-        <ul className="dark-list">
-          {lines &&
-            lines.map((item: string, index: number) => (
-              <li key={index}>
-                <p>{item}</p>
-              </li>
-            ))}
-        </ul>
-      </CardText>
+      <ul className="dark-list">
+        {lines &&
+          lines.map((item: string, index: number) => (
+            <li key={index}>
+              <p>{item}</p>
+            </li>
+          ))}
+      </ul>
     </CardBody>
     <CardFooter className="text-muted">
       {date} | {location}

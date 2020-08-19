@@ -1,7 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import { AppState } from "../../redux/types";
-import { Container, Row, Col } from "reactstrap";
+import { Container } from "reactstrap";
 import { Icon } from "@iconify/react";
 import emailIcon from "@iconify/icons-carbon/email";
 import githubIcon from "@iconify/icons-carbon/logo-github";

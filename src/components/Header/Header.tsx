@@ -5,20 +5,10 @@ import {
   Navbar,
   NavbarToggler,
   NavItem,
-  NavLink,
   Container,
 } from "reactstrap";
-import Scrollspy from "react-scrollspy";
 
-import * as Scroll from "react-scroll";
-import {
-  Link,
-  Element,
-  Events,
-  animateScroll as scroll,
-  scrollSpy,
-  scroller,
-} from "react-scroll";
+import { Link, Events, scrollSpy } from "react-scroll";
 
 interface States {
   isOpen: boolean;

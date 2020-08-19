@@ -1,6 +1,6 @@
 import React from "react";
 import { render } from "@testing-library/react";
-import ProjectItem from "../components/ProjectItem";
+import ProjectItem from "../components/Projects/ProjectItem";
 import { projects } from "../config/data";
 
 test("renders recipe", () => {
@@ -14,7 +14,8 @@ test("renders recipe", () => {
       thumb={project.thumb}
       link={project.link}
       github={project.github}
-      category={project.category}
+      build={project.build}
+      background={project.background}
     />
   );
   const titleElement = getByText(project.title);
