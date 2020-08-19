@@ -1,10 +1,12 @@
 export interface ProfileState {
   name: string;
+  title: string[];
   desc: string;
+  desc2: string;
   photo: string;
   email: string;
   github: string;
-  skills: string[];
+  linkedin: string;
 }
 
 export interface ProjectState {
@@ -13,20 +15,29 @@ export interface ProjectState {
   thumb: string;
   link: string;
   github: string;
-  category: string;
+  build: string[];
+  background: string;
 }
 
-export interface CategoryState {
+export interface ExperienceState {
+  name: string;
+  title: string;
+  date: string;
+  location: string;
+  lines: string[];
+}
+
+export interface SkillState {
   name: string;
   icon: string;
-  iconPrefix: string;
-  enabled: boolean;
+  color: string;
 }
 
 export interface AppState {
   profile: ProfileState;
+  skills: Array<SkillState>;
+  experience: Array<ExperienceState>;
   projects: Array<ProjectState>;
-  categories: Array<CategoryState>;
 }
 
 export interface ActionType {

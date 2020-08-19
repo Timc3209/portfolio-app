@@ -1,18 +1,21 @@
 import { combineReducers } from "redux";
-import categoryReducer from "./categoryReducer";
 import profileReducer from "./profileReducer";
+import skillReducer from "./skillReducer";
+import experienceReducer from "./experienceReducer";
 import projectReducer from "./projectReducer";
 import { AppState } from "../types";
-import { categories, profile, projects } from "../../config/data";
+import { profile, skills, experience, projects } from "../../config/data";
 
 export const AppInitialState: AppState = {
-  categories: categories,
   profile: profile,
+  skills: skills,
+  experience: experience,
   projects: projects,
 };
 
 export const rootReducer = combineReducers({
-  categories: categoryReducer,
   profile: profileReducer,
+  skills: skillReducer,
+  experience: experienceReducer,
   projects: projectReducer,
 });

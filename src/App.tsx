@@ -1,29 +1,30 @@
 import React from "react";
 import { Provider } from "react-redux";
 import { PersistGate } from "redux-persist/integration/react";
-import registerIcons from "./registerIcons";
 import { store, persistor } from "./redux/store";
-import Header from "./components/Header";
-import Profile from "./components/Profile";
-import Categories from "./components/Categories";
-import Projects from "./components/Projects";
+import Header from "./components/Header/Header";
+import Home from "./components/Home/Home";
+import About from "./components/About/About";
+import Skills from "./components/Skills/Skills";
+import Experience from "./components/Experience/Experience";
+import Projects from "./components/Projects/Projects";
+import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./assets/css/App.css";
-
-registerIcons();
 
 function App() {
   return (
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
-        <div className="app">
-          <Header />
-          <div className="content">
-            <Profile />
-            <Categories />
-            <Projects />
-          </div>
-        </div>
+        <Header />
+        <Home />
+        <About />
+        <Skills />
+        <Experience />
+        <Projects />
+        <Contact />
+        <Footer />
       </PersistGate>
     </Provider>
   );
