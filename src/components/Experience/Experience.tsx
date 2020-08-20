@@ -11,7 +11,6 @@ interface OwnProps {
 class Experience extends React.PureComponent<OwnProps> {
   render() {
     const { experience } = this.props;
-    console.log(experience);
     return (
       <section id="Experience" className="full-page">
         <h1 className="text-red text-header">Experience</h1>

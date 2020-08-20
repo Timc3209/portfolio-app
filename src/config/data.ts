@@ -9,7 +9,7 @@ export const profile: ProfileState = {
   name: "Timothy Price",
   title: ["Full Stack Developer"],
   desc:
-    "My name is Timothy Price. I’m a full stack software developer specialized in React and Node.js",
+    "My name is Timothy Price. I’m a full stack software developer specializing in React and Node.js",
   desc2:
     "I have 5 years of development experience building fullstack products from scratch, developing and integrating APIs, and developing mobile applications with React Native.",
   photo:
