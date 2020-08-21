@@ -16,7 +16,7 @@ export const profile: ProfileState = {
     "https://avatars3.githubusercontent.com/u/63269828?s=460&u=223ffe9bbd1e8b7d01f35043a4fdf912e3db0190&v=4",
   email: "Timc3209@gmail.com",
   github: "https://github.com/Timc3209",
-  linkedin: "https://www.linkedin.com/in/timothy-price-887246a8/",
+  linkedin: "https://www.linkedin.com/in/tim209/",
 };
 
 export const experience: Array<ExperienceState> = [
