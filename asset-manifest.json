@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio-app/static/css/main.d1beb9dd.chunk.css",
+    "main.js": "/portfolio-app/static/js/main.a6798143.chunk.js",
+    "main.js.map": "/portfolio-app/static/js/main.a6798143.chunk.js.map",
+    "runtime-main.js": "/portfolio-app/static/js/runtime-main.44fb9206.js",
+    "runtime-main.js.map": "/portfolio-app/static/js/runtime-main.44fb9206.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/portfolio-app/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.92acc9ff.chunk.js": "/portfolio-app/static/js/2.92acc9ff.chunk.js",
+    "static/js/2.92acc9ff.chunk.js.map": "/portfolio-app/static/js/2.92acc9ff.chunk.js.map",
+    "index.html": "/portfolio-app/index.html",
+    "precache-manifest.0327bb55ac5ef0413566c0a5a2b589dd.js": "/portfolio-app/precache-manifest.0327bb55ac5ef0413566c0a5a2b589dd.js",
+    "service-worker.js": "/portfolio-app/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/portfolio-app/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.d1beb9dd.chunk.css.map": "/portfolio-app/static/css/main.d1beb9dd.chunk.css.map",
+    "static/js/2.92acc9ff.chunk.js.LICENSE.txt": "/portfolio-app/static/js/2.92acc9ff.chunk.js.LICENSE.txt",
+    "static/media/recipeapp-sq.png": "/portfolio-app/static/media/recipeapp-sq.48008788.png",
+    "static/media/todoapp.png": "/portfolio-app/static/media/todoapp.c09391a5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.44fb9206.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.92acc9ff.chunk.js",
+    "static/css/main.d1beb9dd.chunk.css",
+    "static/js/main.a6798143.chunk.js"
+  ]
+}
